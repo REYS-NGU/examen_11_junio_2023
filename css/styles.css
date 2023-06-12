@@ -1,0 +1,44 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+
+.banner {
+   background-image: url("../img/tms.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   height: 100vh;
+}
+
+.navbar {
+   color: #fff;
+   padding: 10px;
+   display: flex;
+   align-items: center;
+}
+
+.navbar-item {
+   margin-left: 10px;
+}
+
+.navbar-item a {
+   color: #fff;
+   text-decoration: none;
+}
+
+.navbar-logo img {
+   height: 40px;
+}
+
+.navbar-items {
+   margin-left: auto;
+   display: flex;
+   align-items: center;
+}
+
+.navbar-item:last-child {
+   margin-right: 0;
+}
